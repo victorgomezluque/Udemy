@@ -28,13 +28,13 @@ var arrayNumerosOrdenados = arrayNumeros.sort();
 //Array invertido
 var arrayNumerosOrdenadosInvertido = arrayNumeros.reverse();
 
-var texto = `
-<h2>Texto ordenado </h2>
+document.write("<h2>Numeros ordenados</h2>")
 document.write("<li>"+arrayNumerosOrdenados+"</li>");
 
-<h2>Texto ordenado Invertido</h2>
+
+document.write("<h2>Numeros ordenados Reverse</h2>")
 document.write("<li>"+arrayNumerosOrdenadosInvertido+"</li>");
 
-`;
+
 
 document.write(texto);
